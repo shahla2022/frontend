@@ -1,0 +1,87 @@
+
+body {
+    background-color:  hsl(227, 72%, 37%); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    direction: rtl; 
+    padding-right: 10rem;
+    
+    
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+   
+}
+
+.weather-card {
+    background-color: #277cd0;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    
+}
+
+.weather-card h2 {
+    margin-top: 0;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    
+}
+
+.calendar-icon {
+    width: 24px;
+    height: 24px;
+}
+
+#weather-info {
+    margin-top: 20px;
+}
+
+.day {
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white; 
+    gap: 40px; 
+}
+
+.day img {
+    width: 24px;
+    height: 24px;
+}
+
+.temperature {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.side-icon {
+    width: 60px;
+    height: 60px;
+    padding-right: 3rem;
+    
+    
+    
+}
+.tex{
+    font-weight: bold;
+    font-size: 15px;
+    width: 500px;
+    padding-right: 4rem;
+   
+}
+.today{
+    padding-right: 3rem;
+}
